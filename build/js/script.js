@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".single-item").slick({fade:!0,autoplay:!0,infinite:!0,speed:500,prevArrow:'<button type="button" class="prev"></button>',nextArrow:'<button type="button" class="next"></button>'}),$('a[href*="#"]').on("click",function(t){t.preventDefault(),$("html, body").animate({scrollTop:$($(this).attr("href")).offset().top},700,"linear")})});
